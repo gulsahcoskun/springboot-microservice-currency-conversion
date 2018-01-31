@@ -5,7 +5,7 @@ import java.math.BigDecimal;
 /**
  * Created by GulsahCoskun on 30.01.2018.
  */
-public class CurrencyVersionBean {
+public class CurrencyConversionBean {
 
     private Long id;
     private String from;
@@ -15,10 +15,10 @@ public class CurrencyVersionBean {
     private BigDecimal totalCalculatedAmount;
     private int port;
 
-    public CurrencyVersionBean() {
+    public CurrencyConversionBean() {
     }
 
-    public CurrencyVersionBean(Long id, String from, String to, BigDecimal conversionMultiple, BigDecimal quantity, BigDecimal totalCalculatedAmount, int port) {
+    public CurrencyConversionBean(Long id, String from, String to, BigDecimal conversionMultiple, BigDecimal quantity, BigDecimal totalCalculatedAmount, int port) {
         super();
         this.id = id;
         this.from = from;
